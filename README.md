@@ -1,4 +1,4 @@
-# My College Journey
+# My College Bucket
 
 A curated collection of homeworks, activities, and projects throughout my college courses.
 
