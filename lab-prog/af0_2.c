@@ -37,7 +37,7 @@ int main()
 
     int word_length = string_length(word);
 
-    if (word_length < 3)
+    if (word_length < MINWORD)
     {
         printf("Input word is to small");
         return 1;
