@@ -13,3 +13,8 @@ Hands-on programming exercises and projects in C.
 - [AF2_4](./af2_4/) — Refactors a monolithic program into modular files: stats module with add/average functions
 - [AF2_5](./af2_5.md) — Code review exercise: identifies and fixes multiple issues in a C module (header guards, extern, static linkage)
 - [AF2_6](./af2_6/) — Multi-file project with a logging library (log messages, errors, toggle) using `include/`+`src/` structure
+- [AF2_7](./af2_7/) — Stack (pilha) implementation using opaque pointers: create, push, pop, and destroy operations
+
+## Projects
+
+- [Proj1 — Green Track](./proj1/green-track/) — Plant care management system: register plants, log watering, check schedules, and manage garden tasks with modular `include/`+`src/` structure
