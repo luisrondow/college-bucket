@@ -1,6 +1,8 @@
 #include "rega.h"
 #include "planta.h"
+#include "util.h"
 
+#include <stdio.h>
 #include <stdlib.h>
 
 struct Rega
@@ -60,7 +62,7 @@ int registar_rega(PlantaPtr *plantas, int total_plantas,
         return -1;
     }
 
-    if (data > (int)time(NULL))
+    if (data > date_now())
     {
         printf("Erro: data da rega nao pode estar no futuro.\n");
         return -1;

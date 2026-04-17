@@ -1,11 +1,12 @@
+#include "dados.h"
 #include "planta.h"
 #include "rega.h"
 #include "tarefa.h"
+#include "util.h"
 
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
-#include <time.h>
 
 #define MAX_PLANTAS 100
 #define MAX_REGAS 500
@@ -85,8 +86,7 @@ int main()
         }
         case 4:
         {
-            int data_atual = (int)time(NULL);
-            imprimir_plantas_a_regar(plantas, total_plantas, data_atual, MAX_PLANTAS);
+            imprimir_plantas_a_regar(plantas, total_plantas, date_now(), MAX_PLANTAS);
             break;
         }
         case 5:

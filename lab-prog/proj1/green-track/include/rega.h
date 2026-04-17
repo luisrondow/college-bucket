@@ -2,6 +2,8 @@
 #ifndef REGA_H
 #define REGA_H
 
+#include "planta.h"
+
 typedef struct Rega *RegaPtr;
 
 RegaPtr rega_criar(int id_rega, int id_planta,

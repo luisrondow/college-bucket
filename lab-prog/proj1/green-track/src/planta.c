@@ -1,5 +1,8 @@
 #include "planta.h"
+#include "rega.h"
+#include "util.h"
 
+#include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
 
@@ -53,7 +56,7 @@ void adicionar_planta(PlantaPtr *plantas, int *total_plantas, int max_plantas,
     }
 
     plantas[*total_plantas] = planta_criar(id, nome, especie, data_plantio,
-                                           intervalo, (int)time(NULL));
+                                           intervalo, date_now());
     (*total_plantas)++;
 }
 
