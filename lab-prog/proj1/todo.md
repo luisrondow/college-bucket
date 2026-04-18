@@ -1,1 +1,0 @@
-- ver a cena das datas timestamp

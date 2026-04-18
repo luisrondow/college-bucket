@@ -17,6 +17,8 @@ int tarefa_get_data_prevista(TarefaPtr t);
 
 int tarefa_get_concluida(TarefaPtr t);
 
+void tarefa_set_concluida(TarefaPtr t, int concluida);
+
 int criar_tarefa(TarefaPtr *tarefas, int *total_tarefas, int max_tarefas, const char *descricao, int data_prevista);
 
 void listar_tarefas_pendentes(TarefaPtr *tarefas, int total_tarefas);

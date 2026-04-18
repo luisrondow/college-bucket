@@ -1,6 +1,7 @@
 #include "tarefa.h"
 
 #include <stdlib.h>
+#include <stdio.h>
 #include <string.h>
 
 struct Tarefa
@@ -34,6 +35,7 @@ int tarefa_get_id_tarefa(TarefaPtr t) { return t->id_tarefa; }
 const char *tarefa_get_descricao(TarefaPtr t) { return t->descricao; }
 int tarefa_get_data_prevista(TarefaPtr t) { return t->data_prevista; }
 int tarefa_get_concluida(TarefaPtr t) { return t->concluida; }
+void tarefa_set_concluida(TarefaPtr t, int concluida) { t->concluida = concluida; }
 
 int criar_tarefa(TarefaPtr *tarefas, int *total_tarefas, int max_tarefas,
                  const char *descricao, int data_prevista)
