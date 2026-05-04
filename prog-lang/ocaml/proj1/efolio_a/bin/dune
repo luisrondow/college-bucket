@@ -1,0 +1,9 @@
+(executable
+ (public_name efolio_a)
+ (name main)
+ (libraries str efolio_a))
+
+(env
+ (dev
+  (flags
+   (:standard -w -33))))

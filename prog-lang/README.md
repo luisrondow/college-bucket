@@ -5,3 +5,4 @@ Understand and distinguish different programming paradigms, describing the synta
 ## Activities
 
 - [Java](./java) — Java exercises and projects
+- [OCaml](./ocaml) — OCaml exercises, notes, and Java integration projects
